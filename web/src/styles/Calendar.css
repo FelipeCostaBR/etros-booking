@@ -1,0 +1,74 @@
+.calendar-box-container {
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    position: static;
+}
+
+.calendar-container .startDate {
+  margin: inherit;
+}
+
+.calendar-container {
+  width: 30%;
+  height: 20%;
+  margin-top: 2rem;
+  position: absolute;
+}
+
+.nice-dates-navigation {
+  margin-top: 1rem;
+}
+ .nice-dates-navigation, .nice-dates-day {
+    color: #111;  
+    height: 20%;
+  }
+
+  .nice-dates-popover {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    max-width: 480px;
+    transition: none;
+  } 
+
+  .nice-dates-day:before {
+    background-color: mistyrose;
+}
+
+.nice-dates-day.-selected:not(:hover) *, .nice-dates-day.-selected.-disabled * {
+    color: #111;
+}
+.btn-check-car-available {
+  border:  1px #111 solid;
+  padding: 4px;
+  margin-left: 10rem;
+}
+
+.car-display-container {
+  border: #111 1px solid;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem;
+}
+
+.car-display-container p {
+  font-size: 20px;
+  margin: 4px;
+}
+
+.car-display-container img {
+  width: 20vw;
+  margin: 1rem;
+}
+
+.endDate {
+  margin-left: 12rem;
+
+}
+.car-name {
+  margin-bottom: 6px;
+}
